@@ -10,7 +10,6 @@
               <td>materno</td>
               <td>genero</td>
               <td>nacionalidad</td>
-             
             </tr>
           </thead>
           <tbody>
@@ -38,5 +37,36 @@ export default {
 </script>
 
 <style>
-
+.contenedor {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.contenedor-estudiantes {
+  max-width: 800px;
+  margin: 1rem auto 0 auto;
+}
+/* .contenedor-tabla {
+  overflow: scroll;
+} */
+.listado-estudiantes {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+.listado-estudiantes thead {
+  background-color: #52be80;
+  color: #2471a3;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.listado-estudiantes thead th {
+  padding: 1rem 0;
+}
+.listado-estudiantes tbody td {
+  padding: 0.5rem;
+  background-color: #e8f9ff;
+}
+.listado-estudiantes tbody td:nth-child(4) {
+  text-align: center;
+}
 </style>
