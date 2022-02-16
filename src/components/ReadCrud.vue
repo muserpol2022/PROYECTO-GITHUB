@@ -10,6 +10,7 @@
               <td>materno</td>
               <td>genero</td>
               <td>nacionalidad</td>
+              <td>acciones</td>
             </tr>
           </thead>
           <tbody>
@@ -19,6 +20,7 @@
               <td>{{ estudiante.materno }}</td>
               <td>{{ estudiante.genero }}</td>
               <td>{{ estudiante.nacionalidad }}</td>
+              <td><modificar :id_estudiante="estudiante.id"></modificar></td>
             </tr>
           </tbody>
         </table>
@@ -29,10 +31,14 @@
 
 <script>
 import datosBD from "@/assets/datos.json"; //include
+import Modificar from "@/components/UpdateCrud.vue";
 export default {
   data: () => ({
     datos: datosBD,
   }),
+  components:{
+    Modificar
+  }
 };
 </script>
 
