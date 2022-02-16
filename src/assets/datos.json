@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "nombre": "Leeonel",
+        "nombre": "Leonel",
         "paterno": "Vargas",
         "materno": "Ramirez",
         "genero": "masculino",
@@ -15,7 +15,7 @@
         "nacionalidad":"boliviana"
     },{
         "id": "3",
-        "nombre": "leandroerwwer",
+        "nombre": "Leandro",
         "paterno": "torrez",
         "materno": "lopez",
         "genero": "masculino",
