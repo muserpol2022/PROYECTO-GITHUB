@@ -20,7 +20,7 @@
               <td>{{ estudiante.materno }}</td>
               <td>{{ estudiante.genero }}</td>
               <td>{{ estudiante.nacionalidad }}</td>
-              <td><modificar :id_estudiante="estudiante.id"></modificar></td>
+              <td><modificar :id_estudiante="estudiante.id" :datos="estudiante"></modificar></td>
             </tr>
           </tbody>
         </table>
