@@ -30,7 +30,7 @@
     }
     , {
         "id": "5",
-        "nombre": "Issue",
+        "nombre": "Issues",
         "paterno": "project",
         "materno": "milestone",
         "genero": "masculino",
