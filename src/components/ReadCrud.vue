@@ -29,7 +29,7 @@
       </div>
       
     </div>
-    <modificar ></modificar>
+    <crear ></crear>
   </div>
  
 </template>
@@ -37,12 +37,17 @@
 <script>
 import datosBD from "@/assets/datos.json"; //include
 import Modificar from "@/components/UpdateCrud.vue";
+import Crear from "@/components/Create.vue";
+
+
+
 export default {
   data: () => ({
     datos: datosBD,
   }),
   components:{
-    Modificar
+    Modificar,
+    Crear
   }
 };
 </script>
