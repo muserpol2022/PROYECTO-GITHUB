@@ -23,7 +23,7 @@
                         <td><input type="text"  id="mod_genero"></td>
                      </tr>
                     <tr>
-                        <td>Nacionalidad</td>
+                        <td>Nacionaalidad</td>
                         <td><input type="text"  id="mod_nacionalidad"></td>
                     </tr>
                    <tr>
